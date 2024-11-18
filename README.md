@@ -28,9 +28,6 @@ Currently, I specialize in leveraging **Python** and **R** to build powerful mod
 - 🚗 **Reinforcement Learning for Self-Driving Car**  
   Developing a self-driving car model using **Proximal Policy Optimization (PPO)** with **Pygame** and **PyTorch**.
 
-- ⚓ **Titanic: Machine Learning from Disaster**  
-  Competing in the Kaggle Titanic challenge to build a predictive model using machine learning.
-
 - 💳 **Loan Default Prediction (DNN)**  
   Building a Deep Neural Network model to predict loan defaults.
 
