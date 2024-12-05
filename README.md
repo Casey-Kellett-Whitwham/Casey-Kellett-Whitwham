@@ -56,13 +56,6 @@ Currently, I specialize in leveraging **Python** and **R** to build powerful mod
 
 ---
 
-## 📊 GitHub Stats:
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=casey-kellett-whitwham&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false)  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=casey-kellett-whitwham&theme=shadow_green&hide_border=false)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=casey-kellett-whitwham&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
----
-
 ## 🏆 GitHub Trophies:
 ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=casey-kellett-whitwham&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
