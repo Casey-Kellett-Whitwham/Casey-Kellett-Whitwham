@@ -1,0 +1,40 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs once every hour, on the hour
+  push:
+    branches:
+      - main  # Runs when there are pushes to the main branch
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Fetch latest GitHub stats
+      run: |
+        # Fetch the latest data for GitHub stats
+        curl -s https://github-readme-stats.vercel.app/api?username=casey-kellett-whitwham&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false > stats.json
+        curl -s https://github-readme-streak-stats.herokuapp.com/?user=casey-kellett-whitwham&theme=shadow_green&hide_border=false > streak.json
+        curl -s https://github-readme-stats.vercel.app/api/top-langs/?username=casey-kellett-whitwham&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false&layout=compact > langs.json
+
+    - name: Update README with the latest stats
+      run: |
+        # Update the README dynamically with the data (this is a placeholder example)
+        
+        # Replace the old stats image links in the README with the new ones
+        sed -i 's|https://github-readme-stats.vercel.app/api\?username=.*|https://github-readme-stats.vercel.app/api?username=casey-kellett-whitwham&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false|' README.md
+        sed -i 's|https://github-readme-streak-stats.herokuapp.com/?user=.*|https://github-readme-streak-stats.herokuapp.com/?user=casey-kellett-whitwham&theme=shadow_green&hide_border=false|' README.md
+        sed -i 's|https://github-readme-stats.vercel.app/api/top-langs/?username=.*|https://github-readme-stats.vercel.app/api/top-langs/?username=casey-kellett-whitwham&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false&layout=compact|' README.md
+
+    - name: Commit changes
+      run: |
+        git config --local user.name "GitHub Actions"
+        git config --local user.email "actions@github.com"
+        git add README.md
+        git commit -m "Update GitHub Stats"
+        git push
