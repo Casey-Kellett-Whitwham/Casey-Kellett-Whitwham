@@ -30,7 +30,7 @@ Currently, I specialize in leveraging **Python** and **R** to build powerful mod
 - ⚕️ **CNN cancer detection**  
   Developing a convolutional Neural Network to detect the presence, type and stage of cancer using **PyTorch**.
 
-- 🏥 ** Medical Chatbot***
+- 🏥 ** Medical Chatbot**
   Developing a chatbot for medical prescreening using BERT.
 ---
 
