@@ -27,13 +27,11 @@ Currently, I specialize in leveraging **Python** and **R** to build powerful mod
 
 ## 🔍 Current & Future Projects:
 
-- 🚗 **Reinforcement Learning for Self-Driving Car**  
-  Developing a self-driving car model using **Proximal Policy Optimization (PPO)** with **Pygame** and **PyTorch**.
+- ⚕️ **CNN cancer detection**  
+  Developing a convolutional Neural Network to detect the presence, type and stage of cancer using **PyTorch**.
 
-- 💳 **Loan Default Prediction (DNN)**  
-  Building a Deep Neural Network model to predict loan defaults.
-
-
+- 🏥 ** Medical Chatbot***
+  Developing a chatbot for medical prescreening using BERT.
 ---
 
 ## 🌐 Socials:
