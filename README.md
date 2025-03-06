@@ -2,18 +2,7 @@
 👋 Hi there! I'm **Casey Kellett Whitwham**, a passionate **Machine Learning & Data Analysis enthusiast** focused on solving real-world problems through data-driven insights.  
 Currently, I specialize in leveraging **Python** and **R** to build powerful models and perform in-depth data analysis to drive better decision-making.
 
----
 
-# 🧠 10x week long projects
-  
-
-The goal of this initiative is to develop proficiency across a broad range of machine learning techniques by completing 10 distinct projects, each with a 1-week deadline. <br><br>
-These projects will cover various topics, ranging from live facial recognition applications to reinforcement learning models like Proximal Policy Optimization (PPO). <br><br>
-By completing these projects, I aim to gain hands-on experience with both traditional machine learning algorithms and advanced deep learning techniques, including areas like NLP, computer vision, time series forecasting, and ensemble learning.<br><br>
-
-At the conclusion of these 10 projects, I will embark on a capstone project that integrates a large portion of the skills and knowledge acquired throughout this process. This project will showcase my ability to tackle complex, real-world problems using a combination of the tools and techniques explored in the previous projects.
-
-You can see more on my [Weekly ML Projects Repository](https://github.com/Casey-Kellett-Whitwham/Weekly-ML-Projects/tree/main)
 
 ---
 
